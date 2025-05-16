@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Aplikacja do zarządzania projektami</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <header>
+        <h1>Project Management Dashboard</h1>
+    </header>
+    <main>
+        <section id="task-form">
+            <h2>Add New Task</h2>
+            <form id="new-task-form">
+                <input type="text" id="task-title" placeholder="Task Title" required>
+                <textarea id="task-description" placeholder="Task Description"></textarea>
+                <button type="submit">Add Task</button>
+            </form>
+        </section>
+        <section id="task-list">
+            <h2>Tasks</h2>
+            <ul id="tasks"></ul>
+        </section>
+        <section id="task-graph">
+            <h2>Task Dependencies</h2>
+            <div id="graph-container"></div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Project Management App</p>
+    </footer>
+    <script src="{{ url_for('static', filename='scripts.js') }}"></script>
+</body>
+</html>
