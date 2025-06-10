@@ -1,0 +1,20 @@
+[2025-06-07 18:59:05.175101] add_task: Nowe zadanie (project Projekt 1)
+[2025-06-07 19:00:29.068457] add_task: Nowe zadanie (project Projekt 2)
+[2025-06-07 19:00:43.240673] add_task: aaa1 (project Projekt 2)
+[2025-06-07 19:00:51.731895] add_task: bbb1 (project Projekt 2)
+[2025-06-07 19:01:24.474350] create_relationship: 5 -> 6
+[2025-06-07 19:01:45.316519] delete_task: id: 4
+[2025-06-07 19:01:47.284164] delete_task: id: 5
+[2025-06-07 19:01:49.000352] delete_task: id: 6
+[2025-06-07 19:01:53.060434] delete_task: id: 3
+[2025-06-10 23:35:24.157004] add_task: Nowe zadanie (project DemoProjekt)
+[2025-06-10 23:35:54.149002] add_task: Frontend (project DemoProjekt)
+[2025-06-10 23:36:03.827106] delete_task: id: 4
+[2025-06-10 23:36:25.665807] add_task: Backend (project DemoProjekt)
+[2025-06-10 23:36:46.658190] add_task: Baza danych (project DemoProjekt)
+[2025-06-10 23:37:10.467505] add_task: Testy (project DemoProjekt)
+[2025-06-10 23:37:46.037314] update_task: 0: Baza danych
+[2025-06-10 23:44:43.538220] create_relationship: 5 -> 6
+[2025-06-10 23:44:52.432176] create_relationship: 6 -> 0
+[2025-06-10 23:45:02.423631] create_relationship: 1 -> 5
+[2025-06-10 23:45:11.693945] create_relationship: 1 -> 6
